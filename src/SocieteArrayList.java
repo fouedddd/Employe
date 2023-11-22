@@ -62,4 +62,5 @@ public class SocieteArrayList implements IGestion{
         Collections.sort(employes,employeComparator.thenComparing(gradeComparator));
 
     }
+
 }
